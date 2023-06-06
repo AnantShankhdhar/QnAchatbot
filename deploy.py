@@ -19,7 +19,7 @@ service = Service(
     ports=[
         Port(
             port=8000,
-            host="https://intern-anant-8000.demo1.truefoundry.com//"
+            host="https://intern-anant-8000.demo1.truefoundry.com/"
         )
     ],
     resources=Resources(
