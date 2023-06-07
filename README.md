@@ -16,7 +16,7 @@ pip install requirements.txt
 3. app.py :- The main service file containing FastAPI 
 4. deploy.py :- Truefoundry deployment file
 5. make_segments.py :- Code for preprocessing documents to generate segments which can answer the questions
-6. output.txt :- contains the text output for the questions given for the task
+6. outputs.txt :- contains the text output for the questions given for the task
 
 ## Solution Approach
 We implement a three step solution for the problem:-
