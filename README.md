@@ -29,3 +29,6 @@ Our database is too large for us to use the entire document for searching the an
 
 ### 3. Retreival Augmented Generation for question answering:-
 Now that we have our question and context we finally perform retrieval augmented generation to get the answer for the question. The model used is gpt4all-j-v.1.3 which is a small model that can be run on colab and kaggle. We can use better models too but under the constraints this was the best possible choice. We use prompt engineering which passes the context and question from the model and asks it to give the answer from the context
+
+
+![Pipeline for QNA](https://github.com/AnantShankhdhar/QnAchatbot/blob/main/qna_pipeline.png "QNA Pipeline")
